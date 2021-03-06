@@ -35,8 +35,7 @@ This project will use the data from the IMDB database. Specifically, the table t
 ## One can see that out of all titles the most movies are in the Drama and Comedy.
 
 ## I am also interested in the most common intersection of genres in the movies that bring profit and we use average profit for the resulting histogram
-![GroupedGenresHist](/images/GroupedGenresHist.png)
- <img src="/images/GroupedGenresHist.png" alt="GroupedGenresHist" style="width:500px;height:600px;"> 
+<img src="/images/GroupedGenresHist.png" alt="GroupedGenresHist" style="width:500px;height:600px;"> 
 
 ## Now, most common individual genres in the movies that bring profit and we use average profit for the resulting histogram
 ![IndividualGenresByProfit](/images/IndividualGenresByProfit.png)
