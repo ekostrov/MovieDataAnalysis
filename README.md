@@ -31,14 +31,19 @@ This project will use the data from the IMDB database. Specifically, the table t
 ## Now I want to get to the main focus of our study
 *** 
 ## Next, I am going to visualize top genres present in the movies that make profit both domestically and worldwide
-![IndividualGenresHist](/images/IndividualGenresHist.png)
+
+<img src="/images/IndividualGenresHist.png" alt="IndividualGenresHist" style="width:600px;height:400px;"> 
+
 ## One can see that out of all titles the most movies are in the Drama and Comedy.
 
 ## I am also interested in the most common intersection of genres in the movies that bring profit and we use average profit for the resulting histogram
-<img src="/images/GroupedGenresHist.png" alt="GroupedGenresHist" style="width:500px;height:600px;"> 
+
+<img src="/images/GroupedGenresHist.png" alt="GroupedGenresHist" style="width:600px;height:400px;"> 
 
 ## Now, most common individual genres in the movies that bring profit and we use average profit for the resulting histogram
-![IndividualGenresByProfit](/images/IndividualGenresByProfit.png)
+
+<img src="/images/IndividualGenresByProfit.png" alt="IndividualGenresByProfit" style="width:600px;height:400px;">
+
 
 ## It is also interesting to look at number of movies produced in each genre by year
 
