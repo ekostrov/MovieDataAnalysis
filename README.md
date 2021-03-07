@@ -96,7 +96,7 @@ I used the following analysis:
 >>> -- analysis of actors/actresses and their salaries vs profit
 ***
 
-Please review my full analysis in [our Jupyter Notebook](/JupyterNotebooks/genres.ipynb) or our [presentation](presentation.pdf).
+Please review my full analysis in [our Jupyter Notebook](JupyterNotebooks/project.ipynb) or our [presentation](presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
