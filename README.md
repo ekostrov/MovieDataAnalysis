@@ -5,21 +5,21 @@
 **By Yevgeniy Kostrov**
 ***
 # Overview
-The purpose of this project is to analyze a large data set of movies that includes many different types of information about each movie, such as genres, release dates, budgets, box office earnings genrated domestically and worldwide. The analysis will focus on following characteristics: release month, the highest number of movies released by genres, average profit by genres combined into groups, average profit by individual genres, and number of movies released in each genre in a year over year comparison.
+The purpose of this project is to analyze a large data set of movies that includes many different types of information about each movie, such as genres, release dates, budgets, box office earnings generated domestically and worldwide. The analysis will focus on following characteristics: release month, the highest number of movies released by genres, average profit by genres combined into groups, average profit by individual genres, and a number of movies released in each genre in a year over year comparison.
 
-* I will focus on budgets and revenues as main assessment of the "success" of a movie. 
+* I will measure the success of a movie based on budget and revenue.
 
-* I will see how the release month affects the success: in what months the most profitable movies are released.
+* I will explore how the release month affects the success: in what months the most profitable movies are released.
 
 * I will look at most popular genres by count.
 
-* I will analyze a list of combined genres vs average profit as well as individual genres vs average profit
+* I will analyze a list of grouped genres vs average profit as well as individual genres vs average profit
 
-* At the end, I will provide my recommendations and plan for future analysis.
+* At the end, I will provide my recommendations and plan for further analysis.
 
 # Business Problem
 
-As the demand for new, original high quality content grows, driving the competition among the industries' palyers up, the need for comprehensive targeted analytics about what makes a movie successful has been increasing. With the ever growing interest for new movies and the wide range of movie genres, precise analytics about the performance of movies can give useful information to studios so that they can make the most strategic decisions regarding production and financing of certain projects to make profit. 
+As the demand for new, original high quality content grows, driving the competition among the industry players up, the need for comprehensive targeted analytics about what makes a movie successful has been increasing. With the ever growing interest for new movies and a wide range of movie genres, precise analytics about the performance of movies can give useful information to studios, so the most strategic decisions regarding production and financing of the projects can be made. 
 
 # Data Description
 This project will use the data from the IMDB database. Specifically, the table that contains release dates, movie titles, and gross revenue domestic and worldwide.  I will, also, employ the table with primary titles, original titles, start year, run minutes, and genres.
