@@ -22,7 +22,7 @@ The purpose of this project is to analyze a large data set of movies that includ
 As the demand for new, original high quality content grows, driving the competition among the industry players up, the need for comprehensive targeted analytics about what makes a movie successful has been increasing. With the ever growing interest for new movies and a wide range of movie genres, precise analytics about the performance of movies can give useful information to studios, so the most strategic decisions regarding production and financing of the projects can be made. 
 
 # Data Description
-This project will use the data from the IMDB database. Specifically, the table that contains release dates, movie titles, and gross revenue domestic and worldwide.  I will, also, employ the table with primary titles, original titles, start year, run minutes, and genres.
+This project will use the data from the IMDB database. Specifically, the table that contains release dates, movie titles, and gross revenue domestically and worldwide.  I will also employ the table with primary titles, original titles, start year, run minutes, and genres.
 # First part of the data analysis is on the release month. I will plot the histogram of the release months for the profitable movies.
 
 ![release_month](/images/ReleaseMonthHist.png)
@@ -45,7 +45,7 @@ This project will use the data from the IMDB database. Specifically, the table t
 <img src="/images/IndividualGenresByProfit.png" alt="IndividualGenresByProfit" style="width:600px;height:400px;">
 
 
-## It is also interesting to look at number of movies produced in each genre by year
+## It is also interesting to look at a number of movies produced in each genre by year
 
 ![genres_by_year](/images/genres_by_year.png
 )
@@ -62,7 +62,7 @@ This project will use the data from the IMDB database. Specifically, the table t
 ## Data Modeling
 ***
 I used the following analysis:
-* Dropped duplicates if neccessary.
+* Dropped duplicates, if neccessary.
 * There are 4000 NaN values in the genres columns of the Basic Titles table. I decided to keep these rows but skip them for visualization purposes.
 * I converted dollar amounts from string format into integer format.
 * I converted release month from integer format into string for  better readability in the histogram's labels.
@@ -72,8 +72,8 @@ I used the following analysis:
 ###
  After investigation we can see the following trends
 1. Most movies are released in December and January.
-2. The most common genre among all movies is Drama, then with a big gap, Comedy. From average profit vs combination of genres histogram, we see that Drama has to be combined together with the Adventure or Sci-Fi to bring profit. From the average  profit vs individual genre histogram, we see that Sci-Fi, Adventure, and Animation bring bigest profits.
-3. If we look at the Number of  Movies by Genre vs Release Year plot, we notice the most commonly produced movies are Comedies and Genres year after year. We also can notice that the total number of movies is declining. This trend is confirmed in the next plot: Total Number of Movies by Year.  
+2. The most common genre among all movies is Drama, then with a big gap, Comedy. From average profit vs combination of genres histogram, we see that Drama has to be combined together with the Adventure or Sci-Fi to bring profit. From the average  profit vs individual genre histogram, we see that Sci-Fi, Adventure, and Animation bring biggest profits.
+3. If we look at the Number of  Movies by Genre vs Release Year plot, we notice the most commonly produced movies are Comedies and Drama year after year. We can also notice that the total number of movies is declining. This trend is confirmed in the next plot: Total Number of Movies by Year.  
 ## Suggestions for a Company that wants to enter the Movie Production industry:
 ***
 * I recommend to consider the following genres or their combination:
