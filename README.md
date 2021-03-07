@@ -96,7 +96,7 @@ I used the following analysis:
 >>> -- analysis of actors/actresses and their salaries vs profit
 ***
 
-Please review my full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review my full analysis in [our Jupyter Notebook](./JupyterNotebooks/genres.ipynb) or our [presentation](./presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
@@ -107,7 +107,7 @@ Describe the structure of your repository and its contents, for example:
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
 ├── JupyterNotebooks/project.ipynb      <- Narrative documentation of analysis in Jupyter notebook
-├── presentation.pdf            <- PDF version of project presentation
+├── presentation.pdf                    <- PDF version of project presentation
 ├── data                                <- Both sourced externally and generated from code
 └── images                              <- Both sourced externally and generated from code
 ```
