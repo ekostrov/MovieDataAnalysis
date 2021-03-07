@@ -40,17 +40,17 @@ This project will use the data from the IMDB database. Specifically, the table t
 
 <img src="/images/GroupedGenresHist.png" alt="GroupedGenresHist" style="width:600px;height:400px;"> 
 
-## Now, most common individual genres in the movies that bring profit and we use average profit for the resulting histogram
+## Now, most common individual genres in the movies that bring profit and we use average profit for the resulting histogram.
 
 <img src="/images/IndividualGenresByProfit.png" alt="IndividualGenresByProfit" style="width:600px;height:400px;">
 
 
-## It is also interesting to look at a number of movies produced in each genre by year
+## It is also interesting to look at a number of movies produced in each genre by year.
 
 ![genres_by_year](/images/genres_by_year.png
 )
 
-## We can see on the graph  above that most common  movies by genres are Comedy and Drama
+## We can see on the graph  above that most common  movies by genres are Comedy and Drama.
 ***
 ## One can suspect, based on the previous plot, that the total number of movies is decreasing.
 ***
@@ -62,11 +62,11 @@ This project will use the data from the IMDB database. Specifically, the table t
 ## Data Modeling
 ***
 I used the following analysis:
-* Dropped duplicates, if neccessary.
+* Dropped duplicates, if necessary.
 * There are 4000 NaN values in the genres columns of the Basic Titles table. I decided to keep these rows but skip them for visualization purposes.
 * I converted dollar amounts from string format into integer format.
 * I converted release month from integer format into string for  better readability in the histogram's labels.
-* I used appropriate groupping and aggregation by average value for the analysis to produce insights into the genres.
+* I used appropriate grouping and aggregation by average value for the analysis to produce insights into the genres.
 ***
 ## Trends:
 ###
@@ -96,7 +96,7 @@ I used the following analysis:
 >>> -- analysis of actors/actresses and their salaries vs profit
 ***
 
-Please review our full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
+Please review my full analysis in [our Jupyter Notebook](./dsc-phase1-project-template.ipynb) or our [presentation](./DS_Project_Presentation.pdf).
 
 For any additional questions, please contact **name & email, name & email**
 
